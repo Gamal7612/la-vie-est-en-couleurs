@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8"> <!-- Encodage des caractères -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive -->
+    <meta name="description" content="Découvrez comment la vie s’illumine à travers les couleurs rouge, bleu, vert et jaune. Chaque page explore une ambiance différente grâce à des images et des thèmes variés, pour un voyage visuel et sensoriel."> <!-- Description SEO -->
+    <link rel="icon" type="image/png" href="pictures/favicon.svg"> <!-- Icône du site dans l'onglet -->
+    <title>La vie est en couleur : Rouge</title> <!-- Titre de la page -->
+    <link rel="stylesheet" href="style.css"> <!-- Inclusion du fichier CSS principal -->
+</head>
+<body>
+    <!-- En-tête du site avec navigation -->
+    <header>
+        <!-- Menu burger pour mobile -->
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="burger">&#9776;</label>
+        <div class="nav-ham">
+            <nav>
+                <ul>
+                    <!-- Liens de navigation pour chaque couleur -->
+                    <li><a href="index.html" class="index-button">Couleurs</a></li>
+                    <li><a href="red.html" class="red-button current">Rouge</a></li>
+                    <li><a href="blue.html" class="blue-button">Bleu</a></li>
+                    <li><a href="green.html" class="green-button">Vert</a></li>
+                    <li><a href="yellow.html" class="yellow-button">Jaune</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="container">
+            <!-- Structure du header : logo à gauche, navigation à droite 1/3-2/3 -->
+            <div class="logo">
+                <a href="index.html">
+                    <h1>La vie est en</h1> <!-- Titre principal stylisé -->
+                    <div>
+                        <span class="logo-bold">COULEURS</span> <!-- Slogan/logo en gras -->
+                    </div>
+                </a>
+            </div>
+            <div class="nav">
+                <nav>
+                    <ul>
+                        <li><a href="index.html" class="index-button">Couleurs</a></li>
+                        <li><a href="red.html" class="red-button current">Rouge</a></li>
+                        <li><a href="blue.html" class="blue-button">Bleu</a></li>
+                        <li><a href="green.html" class="green-button">Vert</a></li>
+                        <li><a href="yellow.html" class="yellow-button">Jaune</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- Contenu principal de la page -->
+    <main class="red-background">
+        <div id="color" class="container col">
+            <!-- Première ligne : texte d'ambiance et capsule -->
+            <div class="row">
+                <!-- Capsule texte (3/4 de la ligne) -->
+                <div class="capsule col-9-12 column red-capsule-background">
+                    <h2 class="red-title">La fraise, un fruit pas comme les autres</h2>
+                    <p class="red-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto culpa minima ea. Odio sapiente ad voluptates commodi quis in quasi laudantium quae dolorum, est vitae! Facere corporis itaque esse dignissimos.
+                    </p>
+                </div>
+                <!-- Espace vide (1/4 de la ligne) -->
+                <div class="no-capsule col"></div>
+            </div>
+            <!-- Deuxième ligne : 3 images en 1/3 1/3 1/3 -->
+            <div class="row color-row">
+                <div class="pic-left">
+                    <img class="main-pic rounded" src="pictures/redstrawberrycocktail.jpg" alt="Cocktail à la fraise rouge">
+                </div>
+                <div class="pic-center">
+                    <img class="main-pic rounded" src="pictures/redstrawberrie.jpg" alt="Fraise rouge fraîche">
+                </div>
+                <div class="pic-right">
+                    <img class="main-pic rounded" src="pictures/redstrawberries.jpg" alt="Panier de fraises rouges">
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Pied de page avec informations de l'auteur et du projet -->
+    <footer>
+        <div class="container">
+            <!-- Structure 1/4 - 1/4 - 1/4 - 1/4 -->
+            <div class="footer-left"><p>Gaetan Malagnini</p></div>
+            <div class="footer-center-left"><p>Examen caws</p></div>
+            <div class="footer-center-right"><p>12/06/2025</p></div>
+            <div class="footer-right"><p>gmalagnini@gmail.com</p></div>
+        </div>   
+    </footer>
+</body>
+</html>
